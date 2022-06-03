@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+title{
+    background-color: black;
+    left: 80px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    padding: 60PX 0PX;
+
+    image-rendering: auto;
+    background-image: url(../Img/LogoConsys.jpeg);
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size:cover;
+    
+}
+h4{
+
+    text-align: center;
+}
+
+
+#contenedor {
+    width: 100%;   
+    overflow: hidden;
+}
+
+#contenido {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 1000px;
+    padding: 20px;
+    
+}
+.form-register{
+    width: 600px ;
+    background: #39ace7;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    color: white;
+}
+.form-register h4{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.controles{
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #548db3;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+}
+.form-register a{
+    color: white;
+    text-decoration: none;
+}
+.form-register a:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.form-register .botonr{
+    width: 100%;
+    background: #077a9c;
+    border: none;
+    padding: 7px;
+    color: white;
+    margin: 5px 0;
+    font-size: 18px;
+}
+.form-contacto{
+    width: 400px ;
+    background: #66727e;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    color: white;
+}
+.form-contacto h4{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.form-contacto  .botoncc{
+    width: 100%;
+    background: #077a9c;
+    border: none;
+    padding: 7px;
+    color: white;
+    margin: 5px 0;
+    font-size: 21px;
+}
+input, textarea{
+    width: 100%;
+    color: white;
+    margin-top: 3px;
+    padding: 7px;
+    font-size: 18px;
+    background-color:#24303c;
+    border: 1px solid #000000;
+    border-radius: 4px;
+} 
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+
